@@ -1,0 +1,1 @@
+export  default (localisation) => `https://api.weatherapi.com/v1/current.json?key=d2e543334ba643c18ec02724210210&q=${localisation}&aqi=no`
