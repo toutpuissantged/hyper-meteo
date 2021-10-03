@@ -1,0 +1,19 @@
+{
+    "location": {
+        "name": null,
+        "region": null,
+        "country": null
+    },
+    "current": {
+        "last_updated_epoch": null,
+        "last_updated": null,
+        "temp_c": null,
+        "temp_f": null,
+        "is_day": null,
+        "condition": {
+            "text": null,
+            "icon": null,
+            "code": null
+        }
+    }
+}

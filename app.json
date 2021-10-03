@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "meteo-app",
-    "slug": "snack-6302b23b-9659-44e6-8848-74c801f3a9d5",
+    "slug": "snack-0329ca06-e78d-4f5e-b240-c4f2cb051256",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,11 +23,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "io.expo.client"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "un simple application de meteo pour maitriser les bases de react native "
   }
 }

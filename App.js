@@ -1,20 +1,21 @@
-import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-// You can import from local files
-import Home from './components/home.jsx';
+const Stack = createStackNavigator();
+import HomeScreen from './components/home/home'
+import AboutScreen from './components/about/about'
 
-// or any pure javascript modules available in npm
-import { Card } from 'react-native-paper';
-
-export default function App() {
+const App = () => {
   return (
-    <View >
-      <Card>
-        <Home />
-      </Card>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" default component={HomeScreen} />
+        <Stack.Screen name="About" default component={AboutScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
+export default App;

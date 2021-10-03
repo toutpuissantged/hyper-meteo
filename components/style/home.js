@@ -1,13 +1,13 @@
 export const titleStyle  = {
   textTransform:"capitalize",
   backgroundColor:"royalblue",
-  margin:10,
+  marginBottom:10,
   padding:10,
   textAlign:"center",
   color:"white",
   fontSize:30,
   fontFamily:"aria",
-  borderRadius:60,
+  borderRadius:5,
   fontWeight:"bold",
 }
 
@@ -17,7 +17,7 @@ export const viewStyle1 = {
   backgroundColor:'royalblue',
   alignItems:"center",
   padding:10,
-  borderRadius:5,
+  borderRadius:2,
   color:"white"
 }
 
@@ -27,13 +27,11 @@ export const textStyle2 =  {
   fontSize:20,
   textTransform:"capitalize",
   marginVertical:0,
-
 }
 
 export const infoStyle = {
   marginVertical:10,
   color:"white",
   paddingHorizontal:10,
-  fontFamily:"Impact, fantasy; Arnoldboecklin, fantasy",
-  fontWeight:900
+  fontSize:15,
 }

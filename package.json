@@ -14,13 +14,19 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
     "react-native-web": "~0.13.12",
-    "react-native-paper": "3.6.0",
-    "expo-constants": "~11.0.2",
     "axios": "*",
-    "react-native-elements": "*",
-    "react-native-safe-area-context": "3.2.0",
+    "expo-constants": "~11.0.2",
+    "react-bootstrap": "*",
     "@expo/vector-icons": "^12.0.0",
-    "react-bootstrap": "*"
+    "react-native-paper": "3.6.0",
+    "react-native-elements": "*",
+    "react-native-vector-icons": "*",
+    "react-native-safe-area-context": "3.2.0",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-screens": "~3.4.0",
+    "@react-navigation/stack": "*",
+    "react-native-gesture-handler": "~1.10.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
