@@ -1,3 +1,5 @@
+
+
 export const titleStyle  = {
   textTransform:"capitalize",
   backgroundColor:"royalblue",
